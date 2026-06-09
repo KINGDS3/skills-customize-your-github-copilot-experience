@@ -5,24 +5,32 @@ applyTo: "assignments/**/*.md"
 
 # Assignment Markdown Structure Guidelines
 
-All assignment markdown files should follow these guidelines:
+Assignment markdown files must follow the structure in [templates/assignment-template.md](../../templates/assignment-template.md) and be created as a `README.md` file inside each assignment folder.
 
-## 1. Template Usage
+## 📘 Assignment: [Assignment Title]
 
-- Assignment markdown files must follow the structure in [`templates/assignment-template.md`](../../templates/assignment-template.md).
-- The assignment must be created as a `README.md` file
+Replace `[Assignment Title]` with a short, descriptive name that matches the assignment topic.
+
+## 🎯 Objective
+
+Write 1-2 sentences that explain what the student will learn or complete. Keep the focus on the main skills, concepts, or outcome.
+
+## 📝 Tasks
+
+Use one section per task and keep the template icons and heading levels intact.
+
+### 🛠️ [Task Title]
+
+For each task:
+
+- Use a specific, action-oriented title.
+- In `Description`, clearly state what the student must do.
+- In `Requirements`, use bullet points to describe the expected outcomes or features.
+- Keep requirements specific, measurable, and student-friendly.
+- Add example input or output in code blocks when it helps clarify the task.
+
+## General Rules
+
 - Do not remove or skip required sections from the template.
-
-## 2. Section Guidance
-
-The section headers should reflect the structure in the template, including the exact icon usage.
-
-- **Title**: Replace `[Assignment Title]` with a short, descriptive name (e.g., `Python Basics`, `Loops and Conditionals`, `Functions and Modules`).
-- **Objective**: Write 1-2 sentences summarizing what the student will learn or accomplish. Focus on the main skills or concepts.
-- **Tasks**: For each task:
-   - Use a specific, action-oriented task name
-   - In the Description, clearly state what the student must do.
-   - In Requirements, use bullet points to list the expected outcomes or features. Be specific and measurable
-   - Provide example input/output in code blocks if helpful.
-
-Do not include extra sections unless explicitly specified.
+- Do not add extra sections unless they are explicitly required by the assignment.
+- Keep wording consistent, encouraging, and easy for students to follow.
