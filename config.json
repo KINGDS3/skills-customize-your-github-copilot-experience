@@ -65,6 +65,20 @@
       "description": "Build a REST API with FastAPI to practice routing, validation, responses, and documentation.",
       "path": "assignments/fastapi-rest-apis",
       "dueDate": "2026-06-17"
+    },
+    {
+      "id": "testing-and-debugging-in-python",
+      "title": "Testing and Debugging in Python",
+      "description": "Write pytest tests and fix bugs in a small Python utility module.",
+      "path": "assignments/testing-and-debugging-in-python",
+      "dueDate": "2026-06-17",
+      "attachments": [
+        {
+          "name": "Starter Code",
+          "file": "starter-code.py",
+          "type": "python"
+        }
+      ]
     }
   ]
 }
